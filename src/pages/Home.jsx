@@ -1,5 +1,10 @@
+import FilesTable from '../components/FilesTable'
+
 export default function Home() {
     return (
-        <h2>Home</h2>
+        <>
+            <button className="btn btn-info mt-4"><i className="bi bi-cloud-upload mr-2"></i>Upload</button>
+            <FilesTable />
+        </>
     )
 }
