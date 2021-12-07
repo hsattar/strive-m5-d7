@@ -7,7 +7,25 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* SIDEBAR */
+
+.sidebar {
+  background-color: rgb(236, 234, 234);
+  min-height: 100vh;
+}
+
+.sidebar {
+  border-bottom: 1px solid black;
+}
+
+.sidebar h3 {
+  margin-bottom: 1rem;
+}
+
+.sidebar a {
+  color: #000;
+}
+
+.sidebar a:hover {
+  color: #000;
 }

@@ -9,7 +9,7 @@ export default function App() {
     <Router>
       <Container fluid>
         <Row>
-          <Col xs="2">
+          <Col xs="2" className="sidebar">
             <Sidebar />
           </Col>
           <Col xs="10">
